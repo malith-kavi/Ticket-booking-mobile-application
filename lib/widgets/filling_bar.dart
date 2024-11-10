@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class GrayBar extends StatelessWidget {
   final bool isBlue;
 
-  const GrayBar({required this.isBlue});
+  const GrayBar({super.key, required this.isBlue});
 
   @override
   Widget build(BuildContext context) {
