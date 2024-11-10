@@ -90,7 +90,7 @@ class Explore extends StatelessWidget {
                           text: 'Skip',
                           onPressed: (){
                             Navigator.push(context, 
-                                MaterialPageRoute(builder: (context)=>HomeScreen()),
+                                MaterialPageRoute(builder: (context)=>const HomeScreen()),
                                 );
                           },
                         ),
@@ -102,7 +102,7 @@ class Explore extends StatelessWidget {
                               text: 'Next',
                               onPressed: (){
                                 Navigator.pushReplacement(context, 
-                                MaterialPageRoute(builder: (context)=>Notifications()),
+                                MaterialPageRoute(builder: (context)=>const Notifications()),
                                 );
                               },
                             ),

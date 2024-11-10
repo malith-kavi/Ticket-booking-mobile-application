@@ -81,7 +81,7 @@ class Notifications extends StatelessWidget {
                           text: 'Skip',
                           onPressed: (){
                             Navigator.push(context, 
-                                MaterialPageRoute(builder: (context)=>HomeScreen()),
+                                MaterialPageRoute(builder: (context)=>const HomeScreen()),
                                 );
                           },
                         ),
@@ -94,7 +94,7 @@ class Notifications extends StatelessWidget {
                               text: 'Next',
                               onPressed: (){
                                 Navigator.pushReplacement(context, 
-                                MaterialPageRoute(builder: (context)=>HomeScreen()),
+                                MaterialPageRoute(builder: (context)=>const HomeScreen()),
                                 );
                               },
                             ),
