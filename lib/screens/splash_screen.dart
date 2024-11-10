@@ -13,12 +13,12 @@ class SplashScreen extends StatelessWidget {
     void navigateToNextPage() {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => Explore(),
+          builder: (context) => const Explore(),
         ),
       );
     }
 
-    Future.delayed(Duration(seconds: 2), navigateToNextPage);
+    Future.delayed(const Duration(seconds: 2), navigateToNextPage);
 
     return Scaffold(
       body: Container(
@@ -35,7 +35,7 @@ class SplashScreen extends StatelessWidget {
                 height: 250,
               ),
 
-              SpinKitChasingDots(
+              const SpinKitChasingDots(
                   color: Colors.white,
                   size: 40,
                 ),
