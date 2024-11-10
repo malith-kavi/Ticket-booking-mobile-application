@@ -5,7 +5,7 @@ import 'package:booking/widgets/gray_button.dart';
 import 'package:flutter/material.dart';
 
 class Notifications extends StatelessWidget {
-   Notifications({super.key});
+   const Notifications({super.key});
   
   @override
   Widget build(context) {
